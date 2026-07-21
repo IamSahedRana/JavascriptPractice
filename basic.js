@@ -5,6 +5,13 @@ let people = ['Sahed', 'Rana', 'Abdulla'];
 
 console.log(people);
 
+// 2. Log the length of the array from Task 1.
+// Expected: 3
+
+people_len = people.length;
+console.log('The lenght of the array of People: ', people_len)
+
+
 
 
 
