@@ -12,7 +12,10 @@ people_len = people.length;
 console.log('The lenght of the array of People: ', people_len)
 
 
+// 3. Log the item at index 0 and index 2 of the array.
 
+console.log(people[0]);
+console.log(people[2]);
 
 
 /* 
