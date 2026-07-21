@@ -33,12 +33,16 @@ console.log(people);
 
 // 6. Remove the last item from the array. Log the array and the removed value.
 
-people.pop();
+let removedLast = people.pop();
+console.log(people);
+console.log(removedLast);
+
+// 7. Add one item to the start of the array. Log the array.
+
+people.unshift('Gita');
 console.log(people);
 
-
 /* 
-7. Add one item to the start of the array. Log the array.
 8. Remove the first item from the array. Log the array and the removed value.
 9. Check whether the array contains a specific value. Log true or false.
 10. Find the position of a specific value in the array. Log the number.
