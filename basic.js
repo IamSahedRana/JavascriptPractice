@@ -26,10 +26,12 @@ console.log(people);
 people[1] = 'Nayeem';
 console.log(people);
 
+// 5. Add one item to the end of the array. Log the array.
+
+people.push('Sohel');
+console.log(people);
+
 /* 
-
-
-5. Add one item to the end of the array. Log the array.
 6. Remove the last item from the array. Log the array and the removed value.
 7. Add one item to the start of the array. Log the array.
 8. Remove the first item from the array. Log the array and the removed value.
