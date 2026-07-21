@@ -17,6 +17,14 @@ console.log('The lenght of the array of People: ', people_len)
 console.log(people[0]);
 console.log(people[2]);
 
+// 4. Change the item at index 1 to a new value. Log the array.
+people.splice(1,1,"Karim");
+console.log(people);
+
+// Alternative 
+
+people[1] = 'Nayeem';
+console.log(people);
 
 /* 
 
