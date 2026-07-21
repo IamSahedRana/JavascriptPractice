@@ -31,8 +31,13 @@ console.log(people);
 people.push('Sohel');
 console.log(people);
 
+// 6. Remove the last item from the array. Log the array and the removed value.
+
+people.pop();
+console.log(people);
+
+
 /* 
-6. Remove the last item from the array. Log the array and the removed value.
 7. Add one item to the start of the array. Log the array.
 8. Remove the first item from the array. Log the array and the removed value.
 9. Check whether the array contains a specific value. Log true or false.
